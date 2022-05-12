@@ -23,7 +23,7 @@ export const NewUser = (rootElement) => {
 
           <label class="form-newUser">Correo Electrónico:</label><br>
           <input class="inputFormNewUser" id="newUserEmail"></input><br>
-          
+
           <div class="passwordcreate"><label class="form-newUser">Crear contraseña :</label><br>
           <span class="icon-eye">
           <i class="fa-solid fa-eye-slash"></i></span>
@@ -37,10 +37,10 @@ export const NewUser = (rootElement) => {
   /* eslint-disable no-param-reassign */
   rootElement.innerHTML = containerRegistro;
 
-  const iconEye = rootElement.querySelector('.icon-eye');
+  const iconEye = document.querySelector('.icon-eye');
   iconEye.addEventListener('click', function () {
-    const iconeye = this.querySelector('i');
-
+    const icon = this.querySelector('i');
+    
     if (this.nextElementSibling.type === 'password') {
       this.nextElementSibling.type = 'text';
       iconeye.classList.remove('fa-eye-slash');
