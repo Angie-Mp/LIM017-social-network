@@ -37,18 +37,18 @@ export const NewUser = (rootElement) => {
   /* eslint-disable no-param-reassign */
   rootElement.innerHTML = containerRegistro;
 
-  const iconEye = document.querySelector('.icon-eye');
-  iconEye.addEventListener('click', () => {
-    const icon = this.querySelector('i');
+  const iconEye = rootElement.querySelector('.icon-eye');
+  iconEye.addEventListener('click', function () {
+    const iconeye = this.querySelector('i');
 
     if (this.nextElementSibling.type === 'password') {
       this.nextElementSibling.type = 'text';
-      icon.classList.remove('fa-eye-slash');
-      icon.classList.add('fa-eye');
+      iconeye.classList.remove('fa-eye-slash');
+      iconeye.classList.add('fa-eye');
     } else {
       this.nextElementSibling.type = 'password';
-      icon.classList.remove('fa-eye');
-      icon.classList.add('fa-eye-slash');
+      iconeye.classList.remove('fa-eye');
+      iconeye.classList.add('fa-eye-slash');
     }
   });
 
