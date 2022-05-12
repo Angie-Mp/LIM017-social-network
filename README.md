@@ -1,4 +1,36 @@
-# Creando una Red Social
+# 🌐😊 RED SOCIAL - AsiaMania 🐼
+
+## Índice
+
+* [1. Definición del proyecto](#1-definición-del-proyecto)
+* [2. Proceso de diseño](#2-proceso-de-diseño)
+
+***
+## 1. Definición del proyecto ✍
+
+Asia Mania es una red social pensada para conectar personas amantes del entretenimiento asiatico, compartir información, comentarios sobre animes, doramas, k-pop, noticias, creando asi una comunidad entre amigos.
+
+<img src="https://github.com/GabrielaChoquepata/LIM017-social-network/blob/main/src/image/procesoDeDise%C3%B1oRedSocial.png" width="100%"></img>
+
+> Infografía definición de usuario.
+
+## 2. Proceso de diseño 🪁
+
+<img src="https://github.com/GabrielaChoquepata/LIM017-social-network/blob/main/src/image/historiasDeUsuario.png" width="100%"></img>
+
+> Historias de Usuario.
+
+<img src="https://github.com/GabrielaChoquepata/LIM017-social-network/blob/main/src/image/MoodBoardDeInspiracion.png" width="100%"></img>
+
+> Infografía MoodBoard / Inspiración.
+
+<img src="https://github.com/GabrielaChoquepata/LIM017-social-network/blob/main/src/image/prototipoDeBajaFidelidad.png" width="100%"></img>
+
+> Prototipo de baja fidelidad.
+
+<img src="https://github.com/GabrielaChoquepata/LIM017-social-network/blob/main/src/image/prototipadoDeAltaFidelidad.png" width="100%"></img>
+
+> Prototipo de alta fidelidad.
 
 ## Índice
 

@@ -2,10 +2,6 @@
     font-family: Comfortaa-Bold-fond;
     src: url(../flying_birds_2/Comfortaa-Bold.ttf);
 }
-@font-face {
-    font-family: Comfortaa-Regular-fond;
-    src: url(../flying_birds_2/Comfortaa-Regular.ttf);
-}
 
 *{
     margin: 0;
@@ -19,20 +15,20 @@
     height: 200px;
     width: 200px;
     border: 2px black solid;
-  }
-  #myProgress {
+}
+#myProgress {
     position: relative;
     width: 100%;
     height: 30px;
     background-color: #ddd;
-  }
-  
-  #myBar {
+}
+
+#myBar {
     position: absolute;
     width: 1%;
     height: 100%;
     background-color: #4CAF50;
-  }
+}
 
 .MenuHome{
     background: white;
@@ -99,14 +95,13 @@
     display: none;
 }
 
-hr{
-    display: none;
-}
-
 .containerCategories{
     display: none;
 }
 
+#imageMenuColor, #imageMenuHi{
+    display: none;
+}
 
 .containerPost{
     padding: 6rem 5%;
@@ -130,10 +125,29 @@ hr{
 }
 
 .btnPost{
-    background-color: transparent;
     border: none;
-    transition: 0.3s;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: .3s ease-in-out all;
+    transform-origin: center;
     cursor: pointer;
+    background: black;
+    color: white;
+    overflow: hidden;
+    /* transition: 0.2s; */
+}
+
+.btnPost:hover::after{
+    transform: scale(200);
+    background: #FFF800;
+}
+
+.btnPost:hover{
+    background: #c1bc3e;
+    color: black;
 }
 
 .newPost{
@@ -177,7 +191,7 @@ hr{
 
     .logoMenu{
         display: block;
-        margin: 27%;
+        margin: 30% 0 5% 0;
     }
 
     .nav-bar{
@@ -189,7 +203,6 @@ hr{
         z-index: 1;
         top: 0;
         left: 0;
-        overflow-x: hidden;
         padding-top: 20px;
         border-radius: 0px 50px 50px 0px;
     }
@@ -202,50 +215,45 @@ hr{
         align-items: center;
     }
 
-    hr{
-        display: block;
-        width: 250%;
-        background-color: black;
-        margin: 25% 0% 0% 0%;
-    }
-
     .containerCategories{
         display: block;
-        padding: 42% 0% 150% 0%;
-    }
-
-    #iconBurger{
-        display: none;
-    }
-
-    .categories{
-        display: flex;
-        background: black;
-        border-radius: 27px;
-        width: 280px;
-        height: 83px;
-        color: white;
+        margin: 1% -66%;
+        background: white;
+        border-radius: 25px;
+        padding: 28% 18%;
         font-family: AsiaMania-fond, sans-serif;
-        font-size: 39px;
-
-        justify-content: center;
-        align-items: center;
-        min-height: 4rem;
-        padding: 1% 2% 1% 8%;
-        overflow: auto;
     }
 
-    .categories:hover{
-        color: #FFF800;
+    h3{
+        font-size: 16px;
     }
 
-    .categories .iconMenu {
-        /* border: 1px solid; */
-        margin: 3% 7% 4% -31%;
+    h5{
+        font-family: AsiaMania-fond, sans-serif;
+        font-size: 29px;
+    }
+
+    #imageMenuHi{
+        display: block;
+        position: relative;
+        top: -40%;
+        left: 71%;
+    }
+
+    #imageMenuColor{
+        display: block;
+        position: relative;
+        top: -30%;
+        left: 54%;
+    }
+
+    #imageMenuLove{
+        position: relative;
+        top: -16%;
     }
 
     .description{
-        display: block;
+        /* display: block; */
         float: right;
         padding: 7% 26% 0% 0%;
         font-size: 17px;

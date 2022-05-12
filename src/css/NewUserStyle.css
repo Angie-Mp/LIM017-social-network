@@ -92,16 +92,18 @@
     cursor: pointer;
     margin: 6% 0% 0% 0%;
 }
-.icon-eye{ 
+
+.icon-eye{
     position: absolute;
     top:50%;
     right:20% ;
     transform: translateY(450%);
     cursor: pointer;
-    }
+}
 
 .icon-eye :hover{
-    color: steelblue;}
+    color: steelblue;
+}
 
 @media only screen and (min-width: 820px) {
     /* For desktop: */
@@ -154,10 +156,10 @@
         height: 50px;
         font-size: 16px;
     }
-    .icon-eye{ 
+    .icon-eye{
         position: absolute;
-        top:50%;
-        right:15% ;
+        top:51%;
+        right:9% ;
         transform: translateY(10%);
         }
 }
