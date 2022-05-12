@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Comfortaa-Bold-fond;
+    src: url(../flying_birds_2/Comfortaa-Bold.ttf);
+}
+@font-face {
+    font-family: Comfortaa-Regular-fond;
+    src: url(../flying_birds_2/Comfortaa-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Comfortaa-Bold-fond, sans-serif;
+}
+
+.menuContainerCategories{
+    display: block;
+    padding: 46% 19% 150% 19%;
+    background: red;
+    height: 10vh;
+}
+
+.menuCategories{
+    display: flex;
+    background: black;
+    border-radius: 27px;
+    width: 280px;
+    height: 83px;
+    color: white;
+    font-family: AsiaMania-fond, sans-serif;
+    font-size: 39px;
+
+    justify-content: center;
+    align-items: center;
+    min-height: 4rem;
+    padding: 1% 2% 1% 8%;
+    overflow: auto;
+}
+
+.menuCategories:hover{
+    color: #FFF800;
+}

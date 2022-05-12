@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Comfortaa-Bold-fond;
+    src: url(../flying_birds_2/Comfortaa-Bold.ttf);
+}
+@font-face {
+    font-family: Comfortaa-Regular-fond;
+    src: url(../flying_birds_2/Comfortaa-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.newUserView{
+    padding: 22% 0% 0% 0%;
+    background: white;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoWelcomeViewRegister{
+    display: none;
+}
+
+.titleNewUser {
+    font-family: Comfortaa-Bold-fond, sans-serif;
+    color: black;
+    font-size: 38px;
+}
+
+.newUserImageProfile{
+    align-items: center;
+    text-align: center;
+    font-family: Comfortaa-BOld-fond, sans-serif;
+    font-size: 13px;
+}
+
+.newUserForm{
+    margin: 7% 0% 0% 0%;
+}
+
+.form-newUser{
+    font-family:  Comfortaa-Bold-fond, sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.photoUpload{
+    background-image: url(../image/upload.png);
+    background-size: 100% 100%;
+    background-color: #fff7009a;
+    border-radius: 30px;
+    height: 140px;
+    width: 140px;
+}
+
+.inputFormNewUser{
+    border-color: black;
+    border-width: 1px;
+    width: 300px;
+    height: 42px;
+    font-size: 13px;
+    font-family: Comfortaa-Regular-fond, sans-serif;
+    padding: 0% 3% 0% 3%;
+    margin: 0% 0% 7% 0%;
+}
+
+.writeDescript{
+    border-color: black;
+    border-width: 1px;
+    width: 300px;
+    height: 80px;
+    font-size: 13px;
+    font-family: Comfortaa-Regular-fond, sans-serif;
+    padding: 3% 3% 3% 3%;
+}
+
+.registerBtn{
+    background: black;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: Comfortaa-Bold-fond, sans-serif;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+    margin: 6% 0% 0% 0%;
+}
+
+.icon-eye{
+    position: absolute;
+    top:50%;
+    right:20% ;
+    transform: translateY(450%);
+    cursor: pointer;
+}
+
+.icon-eye :hover{
+    color: steelblue;
+}
+
+@media only screen and (min-width: 820px) {
+    /* For desktop: */
+    .logoWelcomeViewRegister{
+        display: block;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    .AppLogoRegister{
+        width: 60%;
+        margin: 0% 2% -93% 0%;
+    }
+
+    .newUserView{
+        padding: 7% 0% 0% 0%;
+        width: 50%;
+        margin: -1.1% 0% 0% 50%;
+    }
+
+    .titleNewUser {
+        font-size: 48px;
+    }
+
+    .form-newUser{
+        font-size: 16px;
+    }
+
+    .photoRegist{
+        font-size: 16px;
+    }
+
+    .inputFormNewUser{
+        width: 600px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .writeDescript{
+        width: 600px;
+        height: 100px;
+        font-size: 16px;
+    }
+    
+    .registerBtn{
+        width: 600px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .icon-eye{
+        position: absolute;
+        top:51%;
+        right:9% ;
+        transform: translateY(10%);
+        }
+}
+
+ @media (min-width: 600px) and (max-width: 820px) {
+    /*For tablets: */
+}
