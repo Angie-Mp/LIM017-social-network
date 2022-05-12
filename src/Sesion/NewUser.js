@@ -39,8 +39,8 @@ export const NewUser = (rootElement) => {
 
   const iconEye = document.querySelector('.icon-eye');
   iconEye.addEventListener('click', function () {
-    const icon = this.querySelector('i');
-    
+    const iconeye = this.querySelector('i');
+
     if (this.nextElementSibling.type === 'password') {
       this.nextElementSibling.type = 'text';
       iconeye.classList.remove('fa-eye-slash');
